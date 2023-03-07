@@ -18,6 +18,7 @@ app.use(cors());
 
 //Configuración de las rutas
 app.use(`/api/${API_VERSION}`, AccesoriosRoutes);
+app.use(`/api/${API_VERSION}`, objetosRoutes);
 
 module.exports=app;
 
